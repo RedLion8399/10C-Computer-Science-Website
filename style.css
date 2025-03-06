@@ -1,0 +1,56 @@
+:root {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: linear-gradient(#838ef3, #e3ebf6);
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.peoples {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.student-card {
+  margin: 30px;
+  width: 230px;
+  height: 150px;
+
+  border-radius: 50px;
+  background-image: linear-gradient(145deg, #9b9b9b, 20%, #5c6cf9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  transform: scale(1.1);
+}
+
+.student-card a {
+  color: white;
+  text-decoration: none;
+}
+
+.student-card:hover {
+  background-image: linear-gradient(145deg, #00ff15, 60%, #5c6cf9);
+}
+
+img {
+  text-align: center;
+}
